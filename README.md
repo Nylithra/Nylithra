@@ -1,5 +1,3 @@
-# Hı I'm Nylithra
-## I'm
-**Normane Bot Owner**
-###
-**Lanux Development CEO**
+# Selam Ben Nylithra
+Yazılım Geliştirme Mühendisliği
+Lanux Yazılım Geliştirme
