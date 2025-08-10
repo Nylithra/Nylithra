@@ -10,7 +10,7 @@
 <a href="https://www.youtube.com/@nylithra" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="nylithra" height="30" width="40" /></a>
 <a href="https://discord.gg/ZeRvsVpyra" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="ZeRvsVpyra" height="30" width="40" /></a>
 <a href="https://nylithra.blogspot.com/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/rss.svg" alt="https://nylithra.blogspot.com/" height="30" width="40" /></a>
-<a href="mailto:nylithra@gmail.com" target="blank"><img align="center" src="https://raw.githubusercontent.com/Nylithra/Nylithra.github.io/refs/heads/main/download.png" alt="mailto:nylithra@gmail.com" height="30" width="30" /></a>
+<a href="mailto:nylithra@gmail.com" target="blank"><img align="center" src="https://raw.githubusercontent.com/Nylithra/Nylithra.github.io/refs/heads/main/gmail.png" alt="mailto:nylithra@gmail.com" height="30" width="30" /></a>
 </p>
 
 <h3 align="left">Diller ve Araçlar:</h3>
