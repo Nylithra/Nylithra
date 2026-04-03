@@ -16,6 +16,7 @@ class _MainAppState extends State<MainApp> {
   int skor = 0;
   int kalansure = 10;
   bool oyundurum = false;
+  int enyuksekscore = 0;
   Timer? zamanlayici;
 
   void baslat() {
@@ -34,6 +35,9 @@ class _MainAppState extends State<MainApp> {
         } else {
           oyundurum = false;
           zamanlayici?.cancel();
+          if (skor > enyuksekscore){
+            enyuksekscore = skor;
+          }
         }
       });
     });
@@ -66,7 +70,9 @@ class _MainAppState extends State<MainApp> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text(
+            Text("En Yüksek Skor $enyuksekscore "),
+            const SizedBox(height: 20),  
+            Text(
                 "Skor: $skor",
                 style: const TextStyle(
                   fontSize: 24,
