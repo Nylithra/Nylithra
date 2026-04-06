@@ -1,110 +1,66 @@
-import 'dart:async';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MainApp());
+  runApp(Giris());
 }
 
-class MainApp extends StatefulWidget {
-  const MainApp({super.key});
-
+class Giris extends StatefulWidget {
+  const Giris({super.key});
   @override
-  State<MainApp> createState() => _MainAppState();
+  State<Giris> createState() => _GirisState();
 }
 
-class _MainAppState extends State<MainApp> {
-  int skor = 0;
-  int kalansure = 10;
-  bool oyundurum = false;
-  int enyuksekscore = 0;
-  Timer? zamanlayici;
-
-  void baslat() {
-    setState(() {
-      skor = 0;
-      kalansure = 10;
-      oyundurum = true;
-    });
-
-    zamanlayici?.cancel();
-
-    zamanlayici = Timer.periodic(const Duration(seconds: 1), (timer) {
-      setState(() {
-        if (kalansure > 0) {
-          kalansure--;
-        } else {
-          oyundurum = false;
-          zamanlayici?.cancel();
-          if (skor > enyuksekscore){
-            enyuksekscore = skor;
-          }
-        }
-      });
-    });
-  }
-
-  void tikla() {
-    if (oyundurum) {
-      setState(() {
-        skor++;
-      });
-    }
-  }
-
-  @override
-  void dispose() {
-    zamanlayici?.cancel();
-    super.dispose();
-  }
-
+class _GirisState extends State<Giris> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
+          title: Text("Giriş ekranı", style: TextStyle(color: Colors.white)),
           centerTitle: true,
-          title: const Text("CLICKER GAME"),
-          backgroundColor: Colors.amber,
+          backgroundColor: Colors.blueAccent,
         ),
         body: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-            Text("En Yüksek Skor $enyuksekscore "),
-            const SizedBox(height: 20),  
-            Text(
-                "Skor: $skor",
-                style: const TextStyle(
-                  fontSize: 24,
-                  fontWeight: FontWeight.bold,
+          child: Container(
+            color: Colors.blue,
+            width: 300,
+            height: 250,
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Icon(Icons.school, color: Colors.white),
+                    SizedBox(width: 10),
+                    Text(
+                      "Özel Adem Ceylan Giriş ekranı",
+                      style: TextStyle(color: Colors.white),
+                    ),
+                  ],
                 ),
-              ),
-              const SizedBox(height: 20),
-              Text(
-                oyundurum ? "Kalan süre: $kalansure" : "Oyun Bitti!",
-                style: const TextStyle(
-                  fontSize: 30,
-                  color: Colors.red,
-                  fontWeight: FontWeight.bold,
+                SizedBox(height: 50),
+                Container(
+                  width: 200,
+                  child: TextField(
+                    decoration: InputDecoration(
+                      labelText: "Öğrenci numarası",
+                      labelStyle: TextStyle(color: Colors.white),
+                    ),
+                  ),
                 ),
-              ),
-              const SizedBox(height: 40),
-              IconButton(
-                onPressed: tikla,
-                icon: const Icon(Icons.bolt),
-                iconSize: 80,
-                color: Colors.white,
-                style: IconButton.styleFrom(
-                  backgroundColor: oyundurum ? Colors.blue : Colors.grey,
-                  padding: const EdgeInsets.all(40),
+                Container(
+                  width: 200,
+                  child: TextField(
+                    decoration: InputDecoration(
+                      labelText: "Öğrenci TC numarası",
+                      labelStyle: TextStyle(color: Colors.white),
+                    ),
+                  ),
                 ),
-              ),
-              const SizedBox(height: 40),
-              ElevatedButton(
-                onPressed: oyundurum ? null : baslat,
-                child: const Text("Oyunu Başlat"),
-              ),
-            ],
+              ],
+            ),
           ),
         ),
       ),
