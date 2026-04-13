@@ -11,6 +11,11 @@ class Giris extends StatefulWidget {
 }
 
 class _GirisState extends State<Giris> {
+  List<String> ogrenciNo = ["250","535"];
+  List<String> ogrenciTc = ["00000000000","11111111111"];
+  TextEditingController controller_ogrno = TextEditingController();
+  TextEditingController controller_ogrtc = TextEditingController();
+  String mesaj = "";
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -25,7 +30,7 @@ class _GirisState extends State<Giris> {
           child: Container(
             color: Colors.blue,
             width: 300,
-            height: 250,
+            height: 300,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -44,6 +49,7 @@ class _GirisState extends State<Giris> {
                 Container(
                   width: 200,
                   child: TextField(
+                      controller: controller_ogrno,
                     decoration: InputDecoration(
                       labelText: "Öğrenci numarası",
                       labelStyle: TextStyle(color: Colors.white),
@@ -53,17 +59,45 @@ class _GirisState extends State<Giris> {
                 Container(
                   width: 200,
                   child: TextField(
+                    maxLength: 11,
+                    controller: controller_ogrtc,
                     decoration: InputDecoration(
                       labelText: "Öğrenci TC numarası",
                       labelStyle: TextStyle(color: Colors.white),
                     ),
                   ),
                 ),
+                SizedBox(height: 20),
+                ElevatedButton(
+                  onPressed: girisyap,
+                  child: Text(
+                    "Giriş yap",
+                    style: TextStyle(color: Colors.blue),
+                  )
+                ),
+                SizedBox(height: 10),
+                Text(mesaj),
               ],
             ),
           ),
         ),
       ),
     );
+  }
+
+  void girisyap(){
+    int ogrnoindex = ogrenciNo.indexOf(controller_ogrno.text);
+    int ogrtcindex = ogrenciTc.indexOf(controller_ogrtc.text);
+    setState(() {
+      if (ogrtcindex == ogrnoindex) {
+        if (ogrenciNo[ogrnoindex] == controller_ogrno.text && ogrenciTc[ogrtcindex] == controller_ogrtc.text){
+          mesaj = "Giriş başarılı";
+        } else {
+          mesaj = "Öğrenci TC Veya Öğrenci numarası Hatalı.";
+        }
+      } else {
+        mesaj = "Kayıt Bulunamadı";
+      }
+    });
   }
 }
