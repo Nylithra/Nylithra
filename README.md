@@ -39,7 +39,7 @@ Yazılım Geliştirme Üzerine Çalışmalar Yapıyorum. Kendi Kurduğum Lanux G
 
 ### 📜 Sertifikalarım ve Belgelerim
 
-* 🏆 **[Flutter Kurs Sertifikalarım](Sertifika_Link_Buraya)**
+* 🏆 **[Flutter Kurs Sertifikalarım](#)**
 * 🏆 **[Kodelig26 Katılım Sertifikası](https://github.com/Nylithra/Nylithra/blob/main/sertifikalar/kodelig26.pdf)**
 * 🏆 **[CodeWeek23](https://github.com/Nylithra/Nylithra/blob/main/sertifikalar/codeweek23.pdf)**
 
