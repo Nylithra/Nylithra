@@ -31,7 +31,7 @@ Yazılım Geliştirme Üzerine Çalışmalar Yapıyorum. Kendi Kurduğum Lanux G
 
 | Proje Adı | Açıklama | Teknolojiler |
 | :--- | :--- | :--- |
-| **[Code4Ever](https://github.com/code4ever-team/code4ever)** | Mastodon Ve Github Özelliklerini Barındıran Açık Kaynak Sosyal Medya Platformu. | `JavaScript`, `Bun`, `Supabase` |
+| **[Code4Ever](https://github.com/code4ever-team/code4ever)** | Geliştiriciler İçin Özel Sosyal Medya Uygulaması | `JavaScript`, `Bun`, `Supabase` |
 | **[L-Auth](https://github.com/Nylithra/Lanux-Auth)** | Web Siteleri Ve Programlar İçin Hızlı Giriş Uygulaması | `JavaScript`, `NodeJS` |
 | **[RFW](https://github.com/nylithra/)** | RFW (RF Watch), Basit Bir Saat Kutusu İçerisine Modüller Koyarak Radyo Frekans'ı Üzerinden Cihazları Kontrol Etmeyi Amaçlar | `Arduino`, `C/C++` |
 
