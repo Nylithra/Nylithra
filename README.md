@@ -10,8 +10,7 @@
 ---
 
 ### 🚀 Hakkımda / Biyografi
-Yazılım Geliştirme Üzerine Çalışmalar Yapıyorum. Kendi Kurduğum Lanux Group Ve Gloyis Collective'de Aktif Rol Oynuyorum.
-
+Yazılım Geliştirme Üzerine Çalışmalar Yapıyorum. Kendi Kurduğum Lanux Yazılım Ve Lanux Games Üzerinde Aktif Rol Oynuyorum, Gloyis İle Ortaklığımızda Daha İyi İşler Çıkartmayı Hedefliyorum.
 ---
 
 ### 🛠️ Diller ve Araçlar
@@ -22,7 +21,9 @@ Yazılım Geliştirme Üzerine Çalışmalar Yapıyorum. Kendi Kurduğum Lanux G
   <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/></a>
   <a href="https://developer.mozilla.org/tr-TR/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></a>
   <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/></a>
-  <a href="https://nodejs.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/></a>
+  <a href="https://nodejs.org" target="_blank" rel="noreferrer"><img src="https://devicons.io/devicons/icons/nodejs-icon.svg" alt="nodejs" width="40" height="40"/></a>
+  <a href="https://python.org" target="_blank" rel="noreferrer"><img src="https://devicons.io/devicons/icons/python.svg" alt="python" width="40" height="40"/></a>
+  <a href="https://supabase.com/" target="_blank" rel="noreferrer"><img src="https://devicons.io/devicons/icons/supabase-icon.svg" alt="supabase" width="40" height="40"/></a>
 </p>
 
 ---
