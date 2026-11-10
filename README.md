@@ -10,7 +10,8 @@
 ---
 
 ### 🚀 Hakkımda / Biyografi
-Yazılım Geliştirme Üzerine Çalışmalar Yapıyorum. Kendi Kurduğum Lanux Yazılım Ve Lanux Games Üzerinde Aktif Rol Oynuyorum, Gloyis İle Ortaklığımızda Daha İyi İşler Çıkartmayı Hedefliyorum.
+Yazılım Geliştirme Üzerine Çalışmalar Yapıyorum.
+Lanux Yazılım & Games
 ---
 
 ### 🛠️ Diller ve Araçlar
