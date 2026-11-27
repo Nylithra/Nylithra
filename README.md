@@ -44,6 +44,7 @@ Lanux Yazılım & Games
 * 🏆 **[Flutter Kurs Sertifikalarım](#)**
 * 🏆 **[Kodelig26 Katılım Sertifikası](https://github.com/Nylithra/Nylithra/blob/main/sertifikalar/kodelig26.pdf)**
 * 🏆 **[CodeWeek23](https://github.com/Nylithra/Nylithra/blob/main/sertifikalar/codeweek23.pdf)**
+* 🏆 **[Milli Teknoloji Atölyeleri Katılım Belgesi](https://github.com/Nylithra/Nylithra/blob/main/sertifikalar/milliteknolojiatolyeleri.pdf)**
 
 ---
 
